@@ -1,0 +1,22 @@
+{
+    "name": "fiszsont/mercado-libre3",
+    "description": "an-ecomerce",
+    "type": "project",
+    "autoload":{
+        "psr-4":{
+        "Vistas\\":"Templates/",
+        "Controladores\\":"src/",
+        "Library\\":"lib/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tom fiszson",
+            "email": "fiszsontom@gmail.com"
+        }
+    ],
+    "require": {"phpunit/phpunit": "^8.5",
+        "slim/slim": "^4.4",
+        "slim/psr7": "^1.0",
+        "php-di/php-di": "^6.0"}
+}

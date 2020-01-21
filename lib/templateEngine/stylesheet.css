@@ -1,0 +1,19 @@
+body {
+    background-color: blueviolet;
+  }
+  div
+  {
+    width: 70%;
+    background-color: red;
+  }
+  p
+  {
+    color: white;
+    font-size: large;
+    font-family: fantasy;
+  }
+  h1
+  {
+    color: yellow;
+    background-color: blue;
+  }

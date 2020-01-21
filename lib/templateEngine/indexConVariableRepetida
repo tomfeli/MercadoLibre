@@ -1,0 +1,20 @@
+<html>
+<head>
+    <link rel="shortcut icon" href="boca.png">
+<link rel="stylesheet" href="stylesheet.css">  
+<title>{{TITULO}}</title>
+</head>
+<body>
+<header>
+<h1>{{TITULO}}</h1>
+</header>
+<main>
+    <div>
+        <p>{{TEXTOMAIN}}</p>
+    </div>
+</main>    
+<footer>
+<h5>{{PIEDEPAGINA}}</h5>
+</footer>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<ol>
+<li><h3>{{producto}}:</h3><ul>
+    {{contenido}}
+<li>
+    <form action="./VerCarrito" method="POST">
+        <input type="hidden" name="borrar" value="{{prenda}}"/><br/>
+        <input type="hidden" name="borrar2" value="{{producto}}"/><br/>
+        <input type="submit" value="BORRAR"/>
+    </form></li>
+<li><a href="./Ver?prenda={{prenda}}&producto={{producto}}">VER</a></li>
+</ul></li>
+</ol>
